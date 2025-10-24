@@ -1,6 +1,6 @@
 # 🧠 AI-Powered Drone for Automated Building Crack Detection
 
-An **AI-powered drone system** designed for the **automatic detection of building façade cracks and structural anomalies**. This project integrates **computer vision**, **deep learning**, and **autonomous drone navigation** to enhance the accuracy and efficiency of **structural health monitoring (SHM)** in civil infrastructure.
+An **AI-powered drone system** designed for the **automatic detection of building facade cracks and structural anomalies**. This project integrates **computer vision**, **deep learning**, and **autonomous drone navigation** to enhance the accuracy and efficiency of **structural health monitoring (SHM)** in civil infrastructure.
 
 ---
 
@@ -35,7 +35,7 @@ Traditional crack detection methods are labor-intensive, time-consuming, and pro
 
 ## ⚙️ System Architecture
 
-1. **Drone captures façade images** during autonomous flight.
+1. **Drone captures facade images** during autonomous flight.
 2. **AI model processes images** to detect cracks and mark affected areas.
 3. **Data transmitted** to the base station or cloud server.
 4. **Dashboard visualizes** detected flaws and severity levels.
@@ -45,32 +45,17 @@ Traditional crack detection methods are labor-intensive, time-consuming, and pro
 ## 🧠 AI Model Details
 
 * Model Type: Convolutional Neural Network (CNN)
-* Input: RGB façade images (resized to 224×224)
+* Input: RGB facade images (resized to 224×224)
 * Output: Binary classification (Crack / No Crack) + Bounding Box (optional)
 * Dataset: Public crack datasets (e.g., SDNET2018, Concrete Crack Dataset)
 * Training Accuracy: ~99% (can be improved with custom data)
 
 ---
 
-## ⚡ Installation & Setup
-
-```bash
-# 1. Clone the repository
-git clone https://github.com/yourusername/AI-Powered-Drone-Crack-Detection.git
-cd AI-Powered-Drone-Crack-Detection
-
-# 2. Install dependencies
-pip install -r requirements.txt
-
-# 3. Run AI Model Script
-python crack_detection.py
-```
-
----
 
 ## 📸 Output Example
 
-* Detected cracks highlighted in red boxes.
+* Detected cracks highlighted in red boxes(Heat Map).
 * Confidence scores displayed per image.
 * Real-time feed available on control dashboard.
 
@@ -96,4 +81,4 @@ Contributions are welcome! Please open a pull request or issue for suggestions a
 ## 👥 Team
 
 Under the project: *AI-Powered Drone for Automated Building Crack Detection*
-Guided by **Mentor Karobi Sarkar**
+Guided by **Mentor Karobi Sarkar** Assistant Professor at Narula Institute of Technology(Kolkata),and Research Scholar at IIEST Shibpur.
